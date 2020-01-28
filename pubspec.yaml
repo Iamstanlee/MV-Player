@@ -1,0 +1,32 @@
+name: videoplayer
+description: Video Player App.
+version: 1.0.0+1
+
+environment:
+   sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+   flutter:
+      sdk: flutter
+   cupertino_icons: ^0.1.2
+   storage_path: ^0.2.0
+   video_player: ^0.10.5+2
+   video_thumbnail: ^0.2.0
+   provider: ^4.0.2
+   after_layout: ^1.0.7+2
+   flutter_exoplayer: ^0.5.4
+
+dev_dependencies:
+   flutter_test:
+      sdk: flutter
+flutter:
+   uses-material-design: true
+   assets:
+      - assets/
+   fonts:
+      - family: MyIcons
+        fonts:
+           - asset: assets/fonts/MyIcons.ttf
+      - family: BrandonText
+        fonts:
+           - asset: assets/fonts/BrandonText.otf
